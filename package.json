@@ -1,0 +1,11 @@
+{
+  "name": "meditrack-monorepo",
+  "version": "1.0.0",
+  "description": "MediTrack - Digital Healthcare Journey Management System",
+  "scripts": {
+    "server": "npm run dev --prefix server",
+    "client": "npm run dev --prefix client",
+    "seed": "npm run seed --prefix server",
+    "install:all": "npm install --prefix server && npm install --prefix client"
+  }
+}

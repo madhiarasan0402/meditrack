@@ -1,0 +1,8 @@
+.env
+server/.env
+client/.env
+node_modules/
+server/uploads/
+server/uploads/reports/*
+!server/uploads/reports/SAMPLE-LIPID-REPORT.pdf
+dist/
